@@ -1,0 +1,348 @@
+body{
+	background: #2D090E;
+}
+@font-face{
+	font-family: "Appocalypse";
+	src:url('Appocalypse.ttf') format('truetype');
+}
+@font-face{
+	font-family: "Everafte";
+	src: url('EVERAFTE.ttf') format('truetype');
+}
+/* Header */
+.SearchBar .Menu ul li{
+		display: flex;
+		display: inline-block;
+		text-decoration: none;
+		margin:auto;
+		padding: 50px;
+	}
+	.SearchBar .Menu ul li p{
+		font-family: Appocalypse;
+		font-size: 36px;
+		line-height: 128px;
+		color: #D2A5A5;
+
+		}
+
+	.SearchBar .Menu ul li a{
+		text-decoration: none;
+		color:#D2A5A5;
+		font-family:Everafte;
+		font-weight: bold;
+		font-size: 25px;
+	}
+.SearchBar .Menu ul li a:hover{
+		color: #c9696a;
+
+}
+.SearchBar input{
+		border: 3px;
+	    outline: none;
+	    height: 40px;
+	    width: 650px;
+	    border-radius: 50px;
+	    text-align: center;
+	    font-family: sans-serif;
+	    background: #E1D8DB;
+	}
+
+	.container
+	{
+	position: absolute;
+	width: 1209px;
+	height: auto;
+	left: 300px;
+	top: 220px;
+	background: #E7D6D6;
+	border-radius: 8px;	
+}
+/*Header*/
+
+
+.judul h1{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	font-family: Futura Bk Bt;
+}
+
+.gambar img{
+	width: 1150px;
+	padding: 30px;
+}
+
+.kotak {
+  display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+  padding: 10px;
+
+}
+.container .judul{
+	margin: 20px ;
+}
+
+/* JenisPlastik*/
+.kotak{
+	align-items: center;
+	display: flex;
+}
+.kotakjp {
+  background-color: #faefae;
+  cursor: pointer;
+  margin:auto;
+  width: 900px;
+  margin: 30px;
+  border-radius: 10px;
+  
+}
+
+.kotakjp2:hover {
+  box-shadow: 0 2px 3px 4px  rgba(0, 0, 0, 0.5);
+}
+.header h1{
+	margin: 20px;
+}
+.gambar {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.isi {
+  padding: 32px;
+}
+
+
+.text {
+  font-size: 25px;
+  letter-spacing: 5px;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+/* Cara Pengolahan */
+.box{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background: #f3e6e9;
+	width: 330px;
+	height: 450px;
+	margin: 30px;
+	box-shadow:  2px 2px 10px #f1efe3;
+}
+
+.box img{
+	width: 330px;
+	height: 220px;
+	
+}
+
+.box:hover{
+	background-color: #FFFFFF ;
+	border: 1px solid #efd4de;
+}
+.button{
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid grey;
+	display: flex;
+	color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
+	color: #000;	
+}
+
+a{
+	text-decoration: none;
+}
+
+.button:hover{
+	background-color: #b18c95;
+	border: 1px solid #efd4de;
+}
+/* Cara Pengolahan */
+
+/* Alat dan Bahan*/
+.Posting .Judul h1{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	font-family: Futura Bk Bt;
+
+
+	}
+
+	.Posting .Judul p{
+		text-align: right;
+		font-size: 25px;
+	}
+	legend{
+		color: salmon;
+		text-align: left;
+		font-size: 35px;
+	}
+
+	fieldset{
+		width: 90%;
+		height: auto;
+		margin: auto;
+		background-color: #fdfdfe;
+		background-size: 750px;
+		border-color: grey;
+		font-size: 15px;
+		font-family: "Arial";
+		color: black;
+		padding: 10px;
+		margin-bottom: 50px;
+	}
+
+	.Gambar img{
+		width:90%;
+		height: 85%;
+		padding: 20px;
+		display: flex;
+		margin: 30px;
+
+	}
+
+	.IsiPlastik h2{
+		padding: 5px;
+		font-size: 35px;
+		color: #bd9a7a;
+	}
+
+	.IsiPlastik ul li{
+		margin-top: 20px;
+		margin-right: 10px;
+		font-size: 25px;
+		font-family: Futura Bk Bt;
+		text-indent: 25px; 
+	}
+
+	.IsiPlastik ol li{
+		margin-top: 20px;
+		margin-right: 10px;
+		font-size: 25px;
+		font-family: Futura Bk Bt;
+		text-indent: 15px;
+	}
+	/* Alat dan Bahan*/
+
+@media screen and(max-width:1052px){
+	.box{
+
+
+	}
+}
+
+/*Komentar Box*/
+h2{
+	margin: 20px;
+	font-size: 30px;
+}
+.komentar{
+	padding: 60px;
+    width: 320px;
+    min-height: 200px;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+.komentar .komen{
+	display: grid;
+    
+}
+.komentar .komen .isikomen{
+	padding: 0 10px;
+    display: block;
+}
+
+
+.komentar .komen .isikomen label{
+	font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+	}
+.komentar .komen .isikomen input{
+	border-radius: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #FFFFFF;
+	border: 1px solid #59839e;
+	width: 100%;
+	margin: 5px;
+
+}
+.komentar .komen .isikomen textarea{
+	width: 100%;
+    height: 50%;
+    border: 1px solid #59839e;
+    outline: none;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.komentar .komen .isikomen button{
+    display: block;
+    padding: 15px 32px;
+    color: #FFF;
+    background: #59839e;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.prev-komentar{
+	margin: 50px;
+}
+
+.prev-komentar2{
+ background: #FFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.prev-komentar2 h4{
+	font-size: 1.3rem;
+    font-weight: 800;
+    color: #111;
+}
+.prev-komentar2 a{
+	margin: 10px 0;
+    font-size: 18px;
+    color: #111;
+    text-decoration: none;
+    display: inline-block;
+    font-family: arial;
+}
+
+.prev-komentar2 p{
+		font-size: 20px;
+		color: #111;
+		font-family:sans-serif;
